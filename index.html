@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="content">
+            <h1>Output</h1>
+            <div>
+                <h3>Programmer memes</h3>
+                <div id="memes">
+                    
+                </div>
+            </div>
+            <div>
+                <h3>Tell me something funny!</h3>
+                <div id="jokes">
+                    
+                </div>
+            </div>
+            <div>
+                <h3>Give me some wisdom...</h3>
+                <div id="quotes">
+                    
+                </div>
+            </div>
+            <div>
+                <h3>I want a riddle!</h3>
+                <div id="riddles">
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="sidebar">
+            <h2>Actions</h2>
+            <button onclick="showMeme()">Show a Meme</button>
+            <button onclick="showJoke()">Tell Me a Joke</button>
+            <button onclick="showQuote()">Random Quote</button>
+            <button onclick="showRiddle()">Riddle Me</button>
+            <button class="reveal-btn" onclick="revealAnswers()">Reveal Answer</button> 
+            <p class="attribution">Code challenge by <a href="https://github.com/NyctoRAA" target="_top">NyctoRAA</a></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
